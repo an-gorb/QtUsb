@@ -5,11 +5,7 @@
 #include <private/qiodevice_p.h>
 #include <QMutexLocker>
 
-#ifdef Q_OS_UNIX
 #include <libusb-1.0/libusb.h>
-#else
-#include <libusb/libusb.h>
-#endif
 
 QT_BEGIN_NAMESPACE
 
